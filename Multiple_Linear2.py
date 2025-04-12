@@ -25,6 +25,7 @@ for dp, y_ in zip(samples, y):
 w[0] = w[0] - gradient_w[0] / len[samples]
 w[1] = w[1] = gradient_w[1] / len[samples]
 
+
 # update gradient of b
 b = b - gradient_b / len[samples]
 
