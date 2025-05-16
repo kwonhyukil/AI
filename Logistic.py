@@ -47,5 +47,5 @@ print(gradient_b.shape)
 w = w -learning_rate * gradient_w # 가중치 업데이트
 b = b - learning_rate * gradient_b # 편향 업데이트
 
-loss = np.mean(-y_train * np.log(prediction) + (1 - y) * np.log(1 - prediction))
+loss = np.mean(-y_train * np.log(prediction) +    (1 - y) * np.log(1 - prediction))
 # 4. 로지스틱 회귀 모델 정의
