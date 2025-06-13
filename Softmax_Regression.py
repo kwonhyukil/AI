@@ -31,7 +31,7 @@ y_test_one_hot = one_hot[y_test]
 
 # 6. 가중치 및 편향 초기화
 learning_rate = 0.01
-epochs = 1
+epochs = 300
 w = np.random.randn(num_features, num_classes)  # 가중치 초기화
 b = np.random.randn(num_classes)  # 편향 초기화
 
